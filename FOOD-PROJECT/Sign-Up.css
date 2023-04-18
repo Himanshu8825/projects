@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contant {
+    height: 90vh;
+    width: 80vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background-image: url(https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: 55% 100%;
+    margin-top: 8%;
+    box-shadow: 1px 3px 11px 5px #888888;
+    position: absolute;
+    right: 9%;
+    top: -12%;
+}
+
+.btns {
+    position: relative;
+    right: 199px;
+    /* bottom: -22px; */
+    top: 3%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.loginBtn {
+    margin-right: 45px;
+    /* color: rgb(255 255 255); */
+    /* background-color: rgb(255 165 0); */
+    border: 1px solid black;
+    height: 27px;
+    width: 24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 19px;
+    position: absolute;
+    top: 4rem;
+    left: 82%;
+}
+
+.loginBtn:hover {
+    color: blue;
+}
+
+.registerBtn {
+    color: rgb(0, 0, 0);
+    /* border: 3px solid orange; */
+    height: 25px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 35px; */
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: bold;
+    position: absolute;
+    right: 2%;
+    font-size: 25px;
+    font-family: serif;
+    /* bottom: 0%; */
+}
+
+.para {
+    position: absolute;
+    right: 14%;
+    top: 8%;
+    font-size: 19px;
+    font-family: serif;
+}
+
+img {
+    margin: 10px;
+}
+
+.forms {
+    /* background-color: aqua; */
+    width: 30%;
+    height: 70%;
+    padding: 3%;
+    margin-left: 55%;
+    margin-top: 8%;
+    font-size: 20px;
+}
+
+input {
+    border: 0;
+    border-radius: 10px;
+    width: 75%;
+    height: 25px;
+}
+
+:placeholder-shown {
+    padding: 13px;
+    margin: 7px;
+}
+
+label {
+    font-weight: bolder;
+    font-family: math;
+
+}
+
+input.checkbox {
+    width: 15px;
+    margin: 8px;
+}
+
+.para2 {
+    position: absolute;
+    right: 10%;
+    top: 65.5%;
+    font-weight: bold;
+    font-family: math;
+}
+
+span {
+    color: rgb(255, 0, 0);
+}
+
+#btn {
+    margin-top: 10px;
+    margin-left: 58px;
+    margin-bottom: 9px;
+    border: none;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    width: 99%;
+    font-size: large;
+    margin-right: 55px;
+    border-radius: 19px;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+#btn:hover {
+    background-color: rgb(89 63 191);
+    color: rgb(0 0 0);
+}
+
+.para3 {
+    position: absolute;
+    right: 12.5%;
+    top: 80%;
+    font-weight: bold;
+    font-family: math;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    color: blue;
+}
+
+.img2 {
+    width: 5%;
+    position: absolute;
+    left: 55%;
+    cursor: pointer;
+}

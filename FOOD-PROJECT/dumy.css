@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(WhatsApp\ Image\ 2023-02-12\ at\ 10.39.07.jpg);
+    background-size: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+
+li {
+    list-style: none;
+    font-weight: 600;
+    font-size: 15px;
+    margin-right: 60px;
+}
+
+.header li:nth-child(1) {
+    color: orange;
+    border: 3px solid orange;
+    height: 35px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.header li:nth-child(2) {
+    color: white;
+    background-color: orange;
+    height: 35px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+h1 {
+    font-size: 40px;
+    background: -webkit-linear-gradient(rgb(174, 62, 6), rgb(212, 189, 103));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    right: 315px;
+    bottom: 265px;
+}
+
+.btns {
+    position: relative;
+    right: 340px;
+    /* bottom: -22px; */
+    top: 385px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.loginBtn {
+    margin-right: 45px;
+    color: white;
+    background-color: orange;
+    height: 35px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.registerBtn {
+    color: orange;
+    border: 3px solid orange;
+    height: 35px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+h3 {
+    position: absolute;
+    right: 29%;
+    bottom: 35%;
+}
+
+.one {
+    width: 9%;
+    position: absolute;
+    bottom: 236px;
+    right: 590px;
+    border-top: 2px solid rgb(0, 0, 0);
+}
+.two{
+    width: 9%;
+        position: absolute;
+        bottom: 236px;
+        right: 265px;
+        border-top: 2px solid rgb(0, 0, 0);
+}
